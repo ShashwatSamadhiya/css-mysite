@@ -1,0 +1,137 @@
+/*display properties:1.block,2.inline,3.inline-block,4.None
+block element are those who take the whole width
+inline does not let change the width
+inline-block give better of above two
+none show that like we delete the element but we actually didn't*/
+/*positioning:1.static,2.relative,3.absolut,4.fixed
+static is default setup which we done by html
+relative is relative to static*
+absolute positiong is relative to parent in which it is presents
+fixed hang the element*/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+
+  /*center everything that doesn,t have width percent or width value example we have to use margin auto in h1*/
+}
+
+h1 {
+  margin-top:100px;
+  font-size: 4rem;
+  /*in term of percantage 100%=16px so for 90px 90/16*100 that is 562.5% that is 1em=16px*/
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+
+/*  width: 10%;
+  margin: 0 auto 0 auto;*/
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color:#66BFBF;
+  padding-bottom: 10px;
+}
+h3
+{
+  color: #11999E;
+}
+hr
+{
+  border:dotted black;
+  width: 4%;
+  border-radius: 6px;
+  border-bottom: none;
+  margin: 100px auto;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+  line-height: 2rem;
+
+}
+.middle-container{
+  margin:100px 0;
+}
+.bottom-container
+{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+.top-cloud{
+  position: absolute;
+  right:300px;
+  top: 50px;
+}
+
+
+.skill-row
+{
+  width:50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+  .chilli-img
+  {
+    width: 25%;
+    float: right;
+
+  }
+  a{
+    color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+  a:hover
+  {
+    color: #EAF6F6;
+  }
+.code-img{
+  border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin-right:30px
+}
+.contactme-message
+{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.pro{
+  text-decoration: underline;
+}
+.bottom-cloud{
+  position:absolute;
+ left: 400px;
+ bottom: 300px;
+}
